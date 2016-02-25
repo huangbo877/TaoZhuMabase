@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <RelativeLayout
+            android:id="@+id/llayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_gray_shape_corner"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="60dip"
+                android:layout_height="60dip" />
+
+            <ImageView
+                android:id="@+id/iv_product_status"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:visibility="gone"
+                android:background="@color/semitransparent_black2"
+                android:src="@drawable/tzm318" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/llayout"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/llayout"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#727171"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_sellingPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/llayout"
+            android:textColor="#DF434E"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_sellNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#ababab" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="#E6E6E6" />
+
+</LinearLayout>

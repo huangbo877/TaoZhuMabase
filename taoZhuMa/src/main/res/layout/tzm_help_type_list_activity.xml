@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#dcdcdc" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/corner_white" >
+
+            <!-- <ImageView
+                android:id="@+id/im_help_search"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/icon_seach_40_40" />
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="13dp"
+                android:layout_toRightOf="@+id/im_help_search"
+                android:background="@null"
+                android:hint="有问题来搜搜"
+                android:padding="3dp"
+                android:singleLine="true"
+                android:textSize="14sp" /> -->
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.ruiyu.taozhuma.widget.AnimatedExpandableListView
+        android:id="@+id/exlx_help_type"
+        android:layout_width="0dp"
+        android:layout_height="0dp" >
+    </com.ruiyu.taozhuma.widget.AnimatedExpandableListView>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/im_help_search2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tzm_280" />
+
+            <TextView
+                android:id="@+id/tv_kfdh2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/im_help_search2"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:text="常见问题"
+                android:textColor="@color/bg_light_black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_kfdh2"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:text="@string/help1"
+                android:textColor="@color/bg_light_black1"
+                android:textSize="12sp" />
+
+            <ImageView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18dp"
+                android:src="@drawable/tzm008" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/im_help_search3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tzm_281" />
+
+            <TextView
+                android:id="@+id/tv_kfdh3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/im_help_search3"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:text="售前问题"
+                android:textColor="@color/bg_light_black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_kfdh3"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:text="@string/help2"
+                android:textColor="@color/bg_light_black1"
+                android:textSize="12sp" />
+            
+            <ImageView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18dp"
+                android:src="@drawable/tzm008" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/im_help_search4"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tzm_282" />
+
+            <TextView
+                android:id="@+id/tv_kfdh4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/im_help_search4"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:text="售后问题"
+                android:textColor="@color/bg_light_black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_kfdh4"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:text="@string/help3"
+                android:textColor="@color/bg_light_black1"
+                android:textSize="12sp" />
+            
+            <ImageView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18dp"
+                android:src="@drawable/tzm008" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/im_help_search5"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tzm_283" />
+
+            <TextView
+                android:id="@+id/tv_kfdh5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/im_help_search5"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:text="投诉建议"
+                android:textColor="@color/bg_light_black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_kfdh5"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:text="@string/help4"
+                android:textColor="@color/bg_light_black1"
+                android:textSize="12sp" />
+            
+            <ImageView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18dp"
+                android:src="@drawable/tzm008" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_call_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/im_help_search1"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv_kfdh"
+                android:src="@drawable/tzm_284" />
+
+            <TextView
+                android:id="@+id/tv_kfdh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:padding="3dp"
+                android:textColor="@color/bg_light_black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

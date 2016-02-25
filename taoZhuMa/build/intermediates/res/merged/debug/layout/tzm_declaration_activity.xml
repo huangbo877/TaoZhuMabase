@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="淘竹马玩具分销平台用户协议"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="欢迎加入淘竹马玩具分销平台，开始您的幸福购物之旅！"
+                android:textColor="#363636"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="     欢迎阅读“淘竹马”网站服务条款协议（下称“本协议”），“淘竹马”网站的所有权是为广东群宇科技有限公司（下称“本公司”）所有，并由本公司提供服务。本协议阐述之条款和条件适用于您使用淘竹马网站所提供的在生产厂家（Manufacturers）与消费者（Consumers）间电子市场（e-market）中进行贸易和交流的各种工具和服务（下称“服务”）"
+                android:textColor="#363636"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="     欢迎阅读“淘竹马”网站服务条款协议（下称“本协议”），“淘竹马”网站的所有权是为广东群宇科技有限公司（下称“本公司”）所有，并由本公司提供服务。本协议阐述之条款和条件适用于您使用淘竹马网站所提供的在生产厂家（Manufacturers）与消费者（Consumers）间电子市场（e-market）中进行贸易和交流的各种工具和服务（下称“服务”）"
+                android:textColor="#363636"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

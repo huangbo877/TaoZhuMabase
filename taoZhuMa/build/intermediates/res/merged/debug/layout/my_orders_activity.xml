@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_bg"
+     >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/gray_line" />
+
+    <ListView
+        android:id="@+id/lv_scenelist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:dividerHeight="10dp"
+        android:divider="#00000000"
+        />
+
+</LinearLayout>

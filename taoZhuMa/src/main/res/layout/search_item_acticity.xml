@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <LinearLayout
+        android:id="@+id/top_llayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/tab_newest_title"
+                android:textColor="@color/base" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_popular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:text="@string/popularity"
+                android:textColor="@color/tzm_black" />
+
+            <ImageView
+                android:id="@+id/iv_popular"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_popular"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/tzm_266" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/price"
+                android:textColor="@color/tzm_black" />
+
+            <ImageView
+                android:id="@+id/iv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_price"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/tzm_266" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_sales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/sales"
+                android:textColor="@color/tzm_black" />
+
+            <ImageView
+                android:id="@+id/iv_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_sales"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/tzm_266" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.ruiyu.taozhuma.widget.BottomScrollView
+        android:id="@+id/id_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/id_llayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.ruiyu.taozhuma.widget.GridViewForScrollView
+                android:id="@+id/gv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:horizontalSpacing="1dp"
+                android:listSelector="#00000000"
+                android:numColumns="2"
+                android:smoothScrollbar="true"
+                android:verticalSpacing="1dp" >
+            </com.ruiyu.taozhuma.widget.GridViewForScrollView>
+        </LinearLayout>
+    </com.ruiyu.taozhuma.widget.BottomScrollView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TaoZhuMa.iml" filepath="$PROJECT_DIR$/TaoZhuMa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taoZhuMa/taoZhuMa.iml" filepath="$PROJECT_DIR$/taoZhuMa/taoZhuMa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerLib/viewPagerLib.iml" filepath="$PROJECT_DIR$/viewPagerLib/viewPagerLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerindicatorlibrary/viewpagerindicatorlibrary.iml" filepath="$PROJECT_DIR$/viewpagerindicatorlibrary/viewpagerindicatorlibrary.iml" />
+    </modules>
+  </component>
+</project>

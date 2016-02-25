@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp" >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/tzm30" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#D4D4D4" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/tzm64" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img"
+            android:text="手机号"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_telephone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/t1"
+            android:background="@null"
+            android:hint="请输入手机号码"
+            android:lines="1"
+            android:phoneNumber="true"
+            android:textColor="#000000"
+            android:textColorHint="#C0C0C0"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#D4D4D4" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_captcha"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/tzm31" />
+
+        <TextView
+            android:id="@+id/tv_captcha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_captcha"
+            android:text="验证码"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_captcha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_captcha"
+            android:background="@null"
+            android:hint="输入验证码"
+            android:lines="1"
+            android:maxLength="10"
+            android:numeric="integer"
+            android:textColor="#000000"
+            android:textColorHint="#C0C0C0"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_sendCaptcha"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:textColor="#bf242a"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#D4D4D4" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/tzm29" />
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_password"
+            android:text="密　码"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_password"
+            android:background="@null"
+            android:hint="请设置密码"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:password="true"
+            android:textColor="#000000"
+            android:textColorHint="#C0C0C0"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#D4D4D4" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_password2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/tzm29" />
+
+        <TextView
+            android:id="@+id/tv_password2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_password2"
+            android:text="确    认"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_password2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_password2"
+            android:background="@null"
+            android:hint="请再次输入密码"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:password="true"
+            android:textColor="#000000"
+            android:textColorHint="#C0C0C0"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#D4D4D4" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/tzm28" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_name"
+            android:text="昵　称"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/tv_name"
+            android:background="@null"
+            android:hint="请设置昵称"
+            android:lines="1"
+            android:textColor="#000000"
+            android:textColorHint="#C0C0C0"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="#D4D4D4" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/corner_red"
+            android:gravity="center"
+            android:text="立即注册"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_register"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="8dip"
+            android:text="注册即接受《淘竹马玩具分销平台协议》" />
+    </RelativeLayout>
+
+</LinearLayout>

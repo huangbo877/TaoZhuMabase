@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <View
+        android:id="@+id/graylinetop"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/common_title"
+        android:background="@color/gray_line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/graylinetop"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/ll_address_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="12dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/tzm_259" />
+
+                <TextView
+                    android:id="@+id/tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="物流状态："
+                    android:textColor="#3e3a39"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_status_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/tv_status"
+                    android:ellipsize="end"
+                    android:lineSpacingMultiplier="1.2"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#e83569"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_status"
+                    android:layout_below="@+id/tv_status"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="物流公司："
+                    android:textColor="#898989" />
+
+                <TextView
+                    android:id="@+id/tv_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_type"
+                    android:layout_below="@+id/tv_type"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="运单号码："
+                    android:textColor="#898989" />
+
+                <TextView
+                    android:id="@+id/tv_express_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_status"
+                    android:layout_toRightOf="@id/tv_type"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text=""
+                    android:textColor="#898989" />
+
+                <TextView
+                    android:id="@+id/tv_express_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_type"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@id/tv_number"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text=""
+                    android:textColor="#898989" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_order_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/llayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+                        android:text="物流详情"
+                        android:textColor="#898989" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1.0dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:background="@color/gray_bg" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

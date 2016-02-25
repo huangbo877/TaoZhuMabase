@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/bar_title"
+        layout="@layout/common_header" />    
+	<TextView 
+	    android:id="@+id/tv_endtime"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffff"
+	    android:textColor="@color/red"
+	    android:textSize="16sp"
+	    android:text="距离抢购结束时间00:00:00"
+	    android:gravity="center_horizontal"
+	    android:padding="8dip"
+	    />
+        
+	<!--  <Chronometer 
+	    android:id="@+id/chronometer"
+        android:format="hh:mm:ss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dip"
+        android:paddingTop="30dip"
+        android:background="@color/black"
+        /> -->
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/psl_product"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#19000000"
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"
+        ptr:ptrHeaderTextColor="@color/black"
+        ptr:ptrMode="both" />
+    
+</LinearLayout>

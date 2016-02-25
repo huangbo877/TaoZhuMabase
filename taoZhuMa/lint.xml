@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/tzm_login_activity.xml" />
+    </issue>
+    <issue id="WebViewLayout">
+        <ignore path="res/layout/exhibition_detail_activity.xml" />
+        <ignore path="res/layout/tzm_info_detail_activity.xml" />
+    </issue>
+</lint>

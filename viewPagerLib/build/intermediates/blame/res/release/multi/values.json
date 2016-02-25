@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\viewPagerLib\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endColumn": 40,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\viewPagerLib\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
+                }
+            }
+        ]
+    }
+]

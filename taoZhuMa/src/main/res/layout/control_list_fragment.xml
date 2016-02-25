@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.tzm.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ptrf_sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawableStart="@drawable/arrownew"
+        ptr:ptrHeaderBackground="@null"
+        ptr:ptrHeaderTextColor="@color/black"
+        ptr:ptrMode="pullDownFromTop" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" >
+
+                <com.ruiyu.taozhuma.widget.ListViewForScrollView
+                    android:id="@+id/lv_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:descendantFocusability="blocksDescendants"
+                    android:divider="#00000000"
+                    android:dividerHeight="0dp" >
+                </com.ruiyu.taozhuma.widget.ListViewForScrollView>
+
+                <ImageView
+                    android:id="@+id/iv_gotop"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/gotop"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="暂无数据"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.tzm.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>

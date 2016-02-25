@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_head" >
+
+    <RelativeLayout
+        android:id="@+id/c_shop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:background="@drawable/bg_white_gray_corner" >
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_below="@id/iv_picture"
+            android:background="#CCCCCC" />
+
+        <ImageView
+            android:id="@+id/iv_picture"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="2dp"
+             />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_below="@id/line"
+           
+            android:layout_margin="10dp"
+            android:text="佳诚玩具特卖专场"
+            android:textColor="#A4A4A4"
+             />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="25dp"
+            android:layout_margin="10dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/iv_picture"
+            android:src="@drawable/tzm_35" />
+
+        <CheckBox
+            android:id="@+id/cb_sd"
+            style="@style/MyCheckBox03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/t1"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#86222222"
+        android:padding="2dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="已下架"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</FrameLayout>

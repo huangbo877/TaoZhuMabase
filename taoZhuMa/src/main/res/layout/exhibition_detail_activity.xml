@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/bar_title"
+        layout="@layout/common_header" />
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="10dip">
+	        <TextView 
+		        android:id="@+id/tv_title"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        style="@style/text_title_style2"
+		        android:text=""/>
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:layout_marginTop="10dip"
+	            android:layout_marginLeft="20dip"
+	            android:layout_marginRight="20dip"
+	            android:layout_marginBottom="10dip"
+	            android:gravity="center_horizontal">
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                style="@style/text_content_style"
+	                android:text="展会时间："/>
+	            <TextView 
+	                android:id="@+id/tv_exhibitionTime"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                style="@style/text_content_style"
+	                android:text=""/>
+	        </LinearLayout>
+	        <ImageView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/lines"
+		            android:contentDescription="@null" />
+	        <ImageView 
+	            android:id="@+id/img_image"
+	            android:layout_width="match_parent"
+	            android:layout_height="200dip"	            
+	            android:scaleType="fitXY"
+	            android:layout_marginTop="10dip"/>
+	        <WebView 
+	            android:id="@+id/tv_content"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            style="@style/text_content_style"
+	            android:layout_marginTop="10dip"
+	            android:text=""/>
+	       	<TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            style="@style/text_content_style"
+	            android:layout_marginTop="10dip"
+	            android:text=""/>
+	    
+	    </LinearLayout>
+	   
+	
+    </ScrollView>
+   
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_48bb8b2bf4ba212fe0f2a4540d7766ba5f078a54.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\TaoZhuMa\viewpagerindicatorlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9693dbf3e855bf3b6fa79c3e131e19c0d33886c0">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\TaoZhuMa-viewpagerindicatorlibrary-unspecified_a07dff83152699c4f7a94d8bf34c49be3e7c9cc1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\eventbus.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9a179701fef5778920c0471563bc1642e5df8217">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\eventbus_2b26e6f01ee3439aeb54abba0a29df104cdaadb4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\okhttp-2.7.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\okhttp-2.7.2_6403b672eaaa129667b4cd0a121ed3b1783e62a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b651be701cb256e3972e7c5a07119f26bb7b44a4">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2_01c2c02854dd26dfa919c982b1c972b735b1a029.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\umeng-onlineconfig_v1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="716926f94af2f74098d6579fcd72462ad4773c73">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\umeng-onlineconfig_v1.0.0_38bfa5b1210afd286ae0e6deebfa7f02608c9a67.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_047854861f1070488d8b33cff46f443d49c22b63.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\TaoZhuMa\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4eba10e210c67cddceec2ddf6b92709e66e669c4">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\TaoZhuMa-library-unspecified_bb06dc3a0d9a2e9acbbbb1c979152d12c03b9308.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\badgeview.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f77b0850a8adcf49b273a8f29ba481612aaaa19f">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\badgeview_30502bc5ac2a84aa0f3f99f179bae7cb2491c085.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4688dc44ccef22b7f057301ee6abbe187a8d35ea">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\umeng_social_sdk_f14029ddc1e0eda8d81158ad0101a0b2a51b3109.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\Zxing.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7c65c3cf3796857815f7539365e9e2715063cacf">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\Zxing_69d1170ac77057c0518c44c401f1df37858b7cda.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\umeng-analytics-v5.5.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\umeng-analytics-v5.5.3_ac932f76793dcc823c8a7382c43e7313a8d4ce2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0_8b408a6c793c123e66fbf763bb2f3281d471f914.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\com.umeng.message.lib_v2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b729536e092fdc34d6d29bc17e0f8fea0b01a4">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\com.umeng.message.lib_v2.5.0_b2139b93766370ac8b47b753c8a0729ca6b343f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\TaoZhuMa\viewPagerLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fca8763dde6a2fefc3a85c3095b3768df4cd2ee">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\TaoZhuMa-viewPagerLib-unspecified_47c971d1be6cf017013cf1ffdb94b3846a3e0fa5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\universal-image-loader-1.8.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.6_bd0d12b51db8abbb498580218da61a279ae697ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1_5b864ba31f573b3c82a9fadf41fc62516e545a9b.jar" />
+    </item>
+    <item
+        jar="F:\99\sdk2\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_3de2b89896e317d15ee2ce0281f377a8e01a79d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\OKHTTP.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b8ad1c1f3e06ad534bda0ec012d6562bfb05b95">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\OKHTTP_ac891066e185bc870ce4bb99be611515173e6c5b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\alipaySDK-20150818.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6dde19fc34adb03c637b17fdaa754e0c02cf75a0">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\alipaySDK-20150818_051e0cd73062751a4b8f64cca74e190f10a9084a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a6eee0ece63ba5e74411057d09eda1a5a01ca940">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\SocialSDK_Sina_b66d156822470376d9895127b72a0c4db2a6deab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\okio-1.6.0_b5cb15b7ec42041f8d7da74074fa5311c7004347.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\httpmime-4.1.3_36ef0a1d4eef21cb9b35d034d70b91bc8b64e1bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\gson-2.2.4_752a4694a6e7953de1b9e1ac68ee96a302f761f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\xUtils-2.6.14_92e9979373c58ef9362c87fa5a9f6f3119eec390.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\umeng-update-v2.6.0.1_1071ec12481c486de48dea8f810269697cc082c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\libs\picasso-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\pre-dexed\debug\picasso-2.2.0_cb8e7ce3556180d9d7f3c906f89935604ce532cc.jar" />
+    </item>
+
+</items>

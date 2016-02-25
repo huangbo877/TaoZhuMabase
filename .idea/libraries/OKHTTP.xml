@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OKHTTP">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/taoZhuMa/libs/OKHTTP.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

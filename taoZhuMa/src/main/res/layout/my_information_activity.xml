@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:shrinkColumns="1"
+                android:stretchColumns="2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="请填写您的资料："
+                    android:textColor="@color/black"
+                    android:textSize="16sp" >
+                </TextView>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_top_corner_no_bottom_line"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dip"
+                        android:text="真实姓名："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txt_contactor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_enterpriseName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dip"
+                        android:text="公司名称："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txt_enterpriseName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="50dip"
+                        android:text="昵称："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txt_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_sex"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="50dip"
+                        android:text="性别："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <RadioGroup
+                        android:id="@+id/rg_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/rb_man"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="30dip"
+                            android:layout_weight="1"
+                            android:button="@drawable/img_dian_state"
+                            android:gravity="center_vertical"
+                            android:text="男"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" >
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rb_woman"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="30dip"
+                            android:layout_weight="1"
+                            android:button="@drawable/img_dian_state"
+                            android:gravity="center_vertical"
+                            android:text="女"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" >
+                        </RadioButton>
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dip"
+                        android:text="电子邮箱："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txt_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dip"
+                        android:text="固定电话："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txt_telephone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="必填(如:075485555555)"
+                        android:inputType="phone"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_fax"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dip"
+                        android:text="传真号码："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txt_fax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:inputType="phone"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_mainProducts"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dip"
+                        android:text="主营产品："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txt_mainProducts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="50dip"
+                        android:text="省份："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_province"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </Spinner>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="50dip"
+                        android:text="城市："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/sp_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </Spinner>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bottom_corner_no_top_line"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dip"
+                        android:text="详细地址："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txt_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="必填"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </EditText>
+                </TableRow>
+
+                <!--
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_no_corner_without_bottom"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dip"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dip"
+                        android:text="公司简介："
+                        android:textColor="@color/black"
+                        android:textSize="16sp" >
+                    </TextView>
+				</TableRow>
+                -->
+
+
+                <!--
+                    <EditText
+                        android:id="@+id/txt_introduction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_bottom_no_top_corner_no_top_line"
+                        android:gravity="center_vertical"
+                        android:text=""
+                        android:minLines="4"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip"
+                        android:paddingBottom="10dip"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" 
+                        android:layout_gravity="top|left">
+                    </EditText>
+                -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="为了保证您的利益请认真填写，必填项不能为空"
+                    android:textSize="12sp" >
+                </TextView>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical"
+                android:padding="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="公司Logo"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:layout_width="100dip"
+                    android:layout_height="100dip" >
+
+                    <ImageView
+                        android:id="@+id/img_addImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/icon_add_tupian" />
+
+                    <ProgressBar
+                        android:id="@+id/prb_upload"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignBottom="@+id/img_addImage"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="10dip"
+                        android:max="100"
+                        android:progressDrawable="@drawable/progressbar_bg" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/btn_green_shape_corner"
+                android:onClick="loginCheck"
+                android:text="提  交"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

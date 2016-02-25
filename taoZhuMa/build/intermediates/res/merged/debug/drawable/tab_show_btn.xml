@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <item android:drawable="@drawable/tab_product_on" android:state_checked="true"/>
+    <item android:drawable="@drawable/tab_product"/>
+    -->
+
+    <item android:state_checked="true"><bitmap android:gravity="top" android:src="@drawable/tzm_new_g_on" android:tileMode="disabled" />
+    </item>
+    <item><bitmap android:gravity="top" android:src="@drawable/tzm_new_g_off" android:tileMode="disabled" />
+    </item>
+
+</selector>

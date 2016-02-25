@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative_bottom"
+        android:orientation="vertical" >
+
+        <include layout="@layout/common_header" />
+
+        <View
+            android:id="@+id/graylinefirst"
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray_line" />
+
+        <ScrollView
+            android:id="@+id/slview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_head_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/order_head_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:padding="8dp" >
+
+                    <ImageView
+                        android:id="@+id/tv_image"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tzm009" />
+
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:layout_toLeftOf="@+id/image1"
+                        android:layout_toRightOf="@+id/tv_image"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="@string/select_address_tips" />
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/tzm008" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/order_head_bg" />
+
+                <View
+                    android:id="@+id/grayline2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/gray_line" />
+
+                <TextView
+                    android:id="@+id/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="13dp"
+                    android:text="@string/pay_method"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/gray_line" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_coupon"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/vouchers_go" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/tzm008" />
+
+                    <TextView
+                        android:id="@+id/tv_coupon_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@color/base" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/gray_line" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_wallet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:visibility="gone"
+                    android:padding="8dp" >
+
+                    <CheckBox
+                        android:id="@+id/cb_wallet"
+                        style="@style/CheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_wallet_logo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/cb_wallet"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/banlance" />
+
+                    <TextView
+                        android:id="@+id/tv_wallet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/iv_wallet_logo"
+                        android:text="@string/wallet_balance"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_wallet_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/tv_wallet"
+                        android:textColor="@color/base" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/gray_line" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_alipay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="8dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_alipay"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tzm128" />
+
+                    <ImageView
+                        android:id="@+id/iv_alipay_logo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/iv_alipay"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tzm299" />
+
+                    <TextView
+                        android:id="@+id/tv_alipay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/iv_alipay_logo"
+                        android:text="@string/alipay"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_alipay"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toRightOf="@+id/iv_alipay_logo"
+                        android:text="@string/alipay_tips"
+                        android:textColor="@color/tzm_text_sys_default"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/gray_line" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_wechat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="8dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_wechat"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tzm127" />
+
+                    <ImageView
+                        android:id="@+id/iv_wechat_logo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/iv_wechat"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/tzm298" />
+
+                    <TextView
+                        android:id="@+id/tv_wechat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/iv_wechat_logo"
+                        android:text="@string/wechat"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_wechat"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toRightOf="@+id/iv_wechat_logo"
+                        android:text="@string/wechat_tips"
+                        android:textColor="@color/tzm_text_sys_default"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+                <com.ruiyu.taozhuma.widget.ListViewForScrollView
+                    android:id="@+id/lv_product_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:divider="#00000000"
+                    android:dividerHeight="5dp" >
+                </com.ruiyu.taozhuma.widget.ListViewForScrollView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/gray_line" />
+
+        <Button
+            android:id="@+id/btn_affirm"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_red_shape_corner"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/submit_order"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/btn_affirm"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_allprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/common_head_background"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_shipment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

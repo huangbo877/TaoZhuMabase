@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingBottom="30dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_layout_shape"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="1dp" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/light_gray_tittle" >
+
+                    <TextView
+                        android:id="@+id/test1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="收货人姓名："
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/as_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toRightOf="@id/test1"
+                        android:background="@null"
+                        android:hint="请输入收货人"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textColorHint="#C0C0C0"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#acacac" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/light_gray_tittle" >
+
+                    <TextView
+                        android:id="@+id/test2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="手机号码："
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/as_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toRightOf="@id/test2"
+                        android:background="@null"
+                        android:hint="输入手机号"
+                        android:phoneNumber="true"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textColorHint="#C0C0C0"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#acacac" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/light_gray_tittle" >
+
+                    <TextView
+                        android:id="@+id/test3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="邮政编码："
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/as_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toRightOf="@id/test3"
+                        android:background="@null"
+                        android:hint="请输入邮政编码"
+                        android:numeric="integer"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textColorHint="#C0C0C0"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#acacac" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/light_gray_tittle" >
+
+                    <TextView
+                        android:id="@+id/test4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="所在省份："
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/as_province"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/test4"
+                        android:background="@null"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_province"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toRightOf="@id/test4"
+                        android:gravity="center_vertical|left"
+                        android:text="选择省份"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#acacac" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/light_gray_tittle" >
+
+                    <TextView
+                        android:id="@+id/test5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="所在城市："
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/as_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/test5"
+                        android:background="@null"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toRightOf="@id/test5"
+                        android:gravity="center_vertical|left"
+                        android:text="选择城市"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#acacac" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/light_gray_tittle" >
+
+                    <TextView
+                        android:id="@+id/test6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="所在区县："
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/as_counties"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/test6"
+                        android:background="@null"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_counties"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toRightOf="@id/test6"
+                        android:gravity="center_vertical|left"
+                        android:text="选择区县"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#acacac" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/light_gray_tittle"
+                    android:paddingTop="8dp" >
+
+                    <TextView
+                        android:id="@+id/test7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="详细地址："
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/as_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toRightOf="@id/test7"
+                        android:background="@null"
+                        android:gravity="top"
+                        android:hint="请输入详细地址"
+                        android:padding="1dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#C0C0C0"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_delete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/delete1" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

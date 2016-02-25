@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loding_defult"
+    android:orientation="vertical"
+    android:padding="0.1dp" >
+
+    <com.ruiyu.taozhuma.widget.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/iv_picture"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%w"
+            app:layout_widthPercent="100%w"
+            android:background="@drawable/loding_defult"
+            android:paddingBottom="1dp"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_below="@id/iv_picture"
+            android:layout_marginTop="5dp"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_picture"
+            android:layout_marginTop="15dp"
+            app:layout_marginLeftPercent="2%w"
+            app:layout_marginRightPercent="2%w"
+            app:layout_widthPercent="100%w"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.2"
+            android:lines="2"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="5dp"
+            app:layout_marginLeftPercent="2%w"
+            android:text="jiage"
+            android:textColor="@color/base" />
+
+        <TextView
+            android:id="@+id/tv_yuan_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tv_price"
+            app:layout_marginLeftPercent="3%w"
+            android:textColor="@color/tzm_text_gray" />
+
+        
+
+        <ImageView
+            android:id="@+id/iv_sellNumber"
+            android:layout_width="60dp"
+            android:layout_height="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/lijigoumai" />
+
+        <TextView
+            android:id="@+id/tv_sellNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_price"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/gray"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_below="@+id/iv_sellNumber"
+            android:layout_marginTop="2dp" />
+    </com.ruiyu.taozhuma.widget.PercentRelativeLayout>
+
+</LinearLayout>

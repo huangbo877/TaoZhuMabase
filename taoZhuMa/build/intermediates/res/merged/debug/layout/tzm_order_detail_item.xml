@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/llayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_gray_shape_corner"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/iv_productImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                 />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/llayout"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/llayout"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/tzm_text_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_skuvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_productName"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/llayout"
+            android:textColor="@color/tzm_text_sys_default"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_productName"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tzm_black" />
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tzm_text_sys_default"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

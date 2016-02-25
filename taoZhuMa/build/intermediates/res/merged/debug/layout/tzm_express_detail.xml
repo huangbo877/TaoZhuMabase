@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <!-- <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="2"
+        android:lines="2"
+        android:text="到达：广东汕头澄海区公司广东汕头" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="3dp"
+        android:text="2014-12-28 13:40:04" >
+    </TextView> -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_bg" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/tzm_261" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/image1"
+       	android:textColor="#666464"
+        android:maxLines="3"
+        android:lines="3"
+        android:text="到达：广东汕头澄海区公司广东汕头" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_content"
+        android:layout_below="@+id/tv_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:textColor="#666464"
+        android:text="2014-12-28 13:40:04" />
+
+</RelativeLayout>

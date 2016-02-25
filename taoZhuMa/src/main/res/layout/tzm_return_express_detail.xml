@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/gray_bg" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/tzm_261" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/image1"
+        android:maxLines="3"
+        android:text="广东汕头澄海公司 的派件员 张奔 正在派件"
+        android:textColor="#666464" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/image1"
+        android:text="2014-12-28 13:40:04"
+        android:textColor="#666464" />
+
+</RelativeLayout>

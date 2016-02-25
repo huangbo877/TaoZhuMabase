@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruiyu.taozhuma.widget.GridViewForScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gv_child"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:numColumns="3"
+    >
+
+</com.ruiyu.taozhuma.widget.GridViewForScrollView>

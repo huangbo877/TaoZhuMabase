@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\color\\text_color_black_red.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\color\\text_color_black_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\exploded-aar\\TaoZhuMa\\viewpagerindicatorlibrary\\unspecified\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\exploded-aar\\TaoZhuMa\\viewpagerindicatorlibrary\\unspecified\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\color\\color_radiobutton.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\color\\color_radiobutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\color\\text_color_white_red.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\color\\text_color_white_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\color\\tab_selector_tv_color.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\color\\tab_selector_tv_color.xml"
+    }
+]

@@ -1,0 +1,822 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_normal.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_newest_btn.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tab_newest_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\checkbox_selector2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_gray_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_white_gray_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\exploded-aar\\TaoZhuMa\\viewpagerindicatorlibrary\\unspecified\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_gray_dialog.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\corner_gray_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\dash_line.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\dash_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\sex_bg_no.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\sex_bg_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey.9.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\content_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\content_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\round_corner_button.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\round_corner_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\round_button2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\round_button2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_dialog2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_dialog2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_red.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_common_gradient_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_red_corner2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_red_corner2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\search_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\search_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\sex_bg_yes.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\sex_bg_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_checked_selector2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_checked_selector2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pop_reduce_acount.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_pop_reduce_acount.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_style_alert_dialog_cancel.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_style_alert_dialog_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_x_button.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_hot_btn.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tab_hot_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_close_bg_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_close_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicatortext.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tab_indicatortext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\huifu_button.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\huifu_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\red_round_button.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\red_round_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_bottom_corner_no_top_line.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\shape_bottom_corner_no_top_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_red_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_red_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_color_horizontal_gray.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\progress_color_horizontal_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_layout_shape3.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_layout_shape3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_home_btn.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tab_home_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\orders_detail_button.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\orders_detail_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\green_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\green_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_dialog.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_check_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_check_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\dash_black.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\dash_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_button.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_txt_toast.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\shape_txt_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\reply_no.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\reply_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\reply_yes.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\reply_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_show_btn.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tab_show_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cart_add_acount.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_cart_add_acount.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_search_icon.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_tap.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_gray_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\gray_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_pink_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_pink_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_focused.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\content_bg2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\content_bg2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_content_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\edittext_content_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\pink_solid_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\pink_solid_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_white_dialog.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\corner_white_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_solid_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\gray_solid_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\pink_stroke.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\pink_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_storke_corner2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_white_storke_corner2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\grouplist_item_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\grouplist_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\text_color_style.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\text_color_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_contact_btn.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tab_contact_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\background_tab.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\progressbar_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_red_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_red_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\style_send_btn_bg_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\style_send_btn_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\content_bg1.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\content_bg1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_normal.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gray_shape_corner2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_gray_shape_corner2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_normal.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_wode_btn.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tab_wode_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_white_dialog2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\corner_white_dialog2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector4.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\checkbox_selector4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cart_reduce_acount.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_cart_reduce_acount.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_tap.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_tap.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_refersh.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_wifi_disable.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_wifi_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\round_button1.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\round_button1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_storke_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_white_storke_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector3.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\checkbox_selector3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_no_corner_without_bottom.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\shape_no_corner_without_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tb_munion_item_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tb_munion_item_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_layout_shape.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_layout_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_white.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\corner_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\img_dian_state.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\img_dian_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_buttong_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\radio_buttong_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_white_dialog3.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\corner_white_dialog3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\stype_gouxuan_btn.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\stype_gouxuan_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_red_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\back_btn_bg_style.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\back_btn_bg_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\tb_munion_icon.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\tb_munion_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_normal.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_ok_bg_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_style_alert_dialog_button.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_style_alert_dialog_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\act_text_ratingbar.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\act_text_ratingbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector5.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\checkbox_selector5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\round_button.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_red.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\corner_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tabtext.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\selector_tabtext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pink_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_pink_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_selected.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cart_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_cart_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\light_black_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\light_black_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg_shape.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\wheel_bg_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\jb_shape.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\jb_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_corner2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\shape_corner2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_pink_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_pink_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_red_storke_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_red_storke_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_solid_corners.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_white_solid_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_on.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_green.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_common_gradient_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_pink_stroke_corners.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_pink_stroke_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_checked_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_checked_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_translucent_gray.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\corner_translucent_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_twitter.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_btn_small.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\radio_btn_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_corner1.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\shape_corner1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_layout_shape2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_layout_shape2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_orange_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_orange_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_common_gradient_orange.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_common_gradient_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_dialog_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_title_bg.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_title_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_focused.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_normal.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_gray_corner2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_white_gray_corner2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_pop_add_acount.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_pop_add_acount.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_stroke.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\gray_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_off.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_top_corner_no_bottom_line.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\shape_top_corner_no_bottom_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_red_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_white_red_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_storke_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\bg_storke_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\text_color_black_pink.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\text_color_black_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_stroke_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\gray_stroke_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_color_horizontal.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\progress_color_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\pink_stroke_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\pink_stroke_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\text_color_style2.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\text_color_style2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\stroke_rotate.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\stroke_rotate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\btn_green_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\home_bar_shape_corner.xml",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\home_bar_shape_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\taoZhuMa\\src\\main\\res\\drawable\\umeng_socialize_google.png"
+    }
+]

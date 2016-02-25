@@ -1,0 +1,1297 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:2:1-860:12
+	package
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:4:5-31
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [TaoZhuMa:library:unspecified] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\TaoZhuMa\library\unspecified\AndroidManifest.xml:7:5-9:40
+MERGED from [TaoZhuMa:viewpagerindicatorlibrary:unspecified] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\TaoZhuMa\viewpagerindicatorlibrary\unspecified\AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [TaoZhuMa:viewPagerLib:unspecified] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\TaoZhuMa\viewPagerLib\unspecified\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_GPS
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:14:5-69
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:14:22-66
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:16:5-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:16:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:17:5-70
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:17:19-67
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:20:5-69
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:20:22-66
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:21:5-88
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:21:22-85
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:22:5-85
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:22:22-82
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:23:5-84
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:23:22-81
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:25:5-69
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:25:22-66
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:27:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:28:5-71
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:28:22-68
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:31:5-67
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:31:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:33:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:34:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:35:5-73
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:35:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:36:5-66
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:36:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:37:22-78
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:38:5-82
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:38:22-79
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:39:5-88
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:39:22-85
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:40:5-75
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:40:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:41:5-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:41:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:42:5-76
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:42:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:43:5-68
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:43:22-65
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:44:5-79
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:44:22-76
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:45:5-85
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:45:22-82
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:47:5-71
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:47:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:48:5-80
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:48:22-77
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:49:5-84
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:49:22-81
+application
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:51:5-858:19
+MERGED from [TaoZhuMa:library:unspecified] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\TaoZhuMa\library\unspecified\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:55:9-41
+	android:allowBackup
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:53:9-35
+	android:icon
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:54:9-43
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:56:9-44
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:52:9-45
+activity#com.ruiyu.taozhuma.activity.StartActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:57:9-67:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:59:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:61:13-52
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:60:13-77
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:58:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:62:13-66:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:63:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:65:17-77
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:65:27-74
+activity#com.ruiyu.taozhuma.activity.MainTabActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:68:9-73:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:71:13-49
+	android:launchMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:70:13-44
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:72:13-52
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:69:13-53
+activity#com.ruiyu.taozhuma.activity.TestActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:76:9-80:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:78:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:79:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:77:13-50
+activity#com.ruiyu.taozhuma.activity.MineWalletActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:82:9-86:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:84:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:85:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:83:13-56
+activity#com.ruiyu.taozhuma.activity.ShanPingWebActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:89:9-93:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:91:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:92:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:90:13-57
+activity#com.ruiyu.taozhuma.activity.ShanPingActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:95:9-99:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:97:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:98:13-92
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:96:13-54
+activity#com.ruiyu.taozhuma.activity.TzmSpecialCollectionActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:101:9-105:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:103:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:104:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:102:13-66
+activity#com.ruiyu.taozhuma.activity.ProductDetailActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:108:9-113:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:110:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:112:13-54
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:111:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:109:13-77
+activity#com.ruiyu.taozhuma.activity.TzmReturnExpressLogisticsActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:115:9-119:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:117:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:118:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:116:13-71
+activity#com.ruiyu.taozhuma.activity.TzmResetQQActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:122:9-126:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:124:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:125:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:123:13-56
+activity#com.ruiyu.taozhuma.activity.ScenesDetailWebActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:128:9-132:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:130:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:131:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:129:13-61
+activity#com.ruiyu.taozhuma.activity.GetFocusActivityProductActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:134:9-138:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:136:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:137:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:135:13-69
+activity#com.ruiyu.taozhuma.activity.MemberExclusiveActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:140:9-144:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:142:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:143:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:141:13-61
+activity#com.ruiyu.taozhuma.activity.CommonHelpDetailActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:146:9-150:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:148:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:149:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:147:13-62
+activity#com.ruiyu.taozhuma.activity.UserCouponListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:152:9-156:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:154:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:155:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:153:13-60
+activity#com.ruiyu.taozhuma.activity.TzmTimeActivityProductDetailActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:158:9-163:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:160:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:162:13-54
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:161:13-66
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:159:13-74
+activity#com.ruiyu.taozhuma.activity.TimeActivityListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:165:9-170:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:168:13-49
+	android:launchMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:167:13-44
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:169:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:166:13-62
+activity#com.ruiyu.taozhuma.wxapi.ALiPayResultActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:172:9-177:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:174:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:176:13-54
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:175:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:173:13-55
+activity#com.ruiyu.taozhuma.activity.TzmStaticHelpDetailActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:179:9-184:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:181:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:183:13-52
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:182:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:180:13-65
+activity#com.ruiyu.taozhuma.activity.TzmEditAdressActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:186:9-191:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:188:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:190:13-52
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:189:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:187:13-59
+activity#com.ruiyu.taozhuma.activity.TzmNewAdressActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:193:9-197:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:195:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:196:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:194:13-58
+activity#com.ruiyu.taozhuma.activity.TzmAdActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:199:9-203:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:201:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:202:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:200:13-51
+activity#com.ruiyu.taozhuma.activity.OrdersDetailActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:204:9-208:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:206:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:207:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:205:13-58
+activity#com.ruiyu.taozhuma.activity.SelectPicActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:209:9-211:56
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:211:13-53
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:210:13-55
+activity#com.ruiyu.taozhuma.activity.CaptureActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:212:9-217:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:214:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:216:13-55
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:215:13-77
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:213:13-53
+activity#com.ruiyu.taozhuma.activity.ProductCodeActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:218:9-222:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:220:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:221:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:219:13-57
+activity#com.ruiyu.taozhuma.activity.AllProductActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:223:9-228:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:225:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:227:13-52
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:226:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:224:13-56
+activity#com.ruiyu.taozhuma.activity.FeedBackActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:229:9-234:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:231:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:233:13-52
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:232:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:230:13-54
+activity#com.ruiyu.taozhuma.activity.ViewPagerActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:235:9-240:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:237:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:239:13-52
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:238:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:236:13-55
+activity#com.ruiyu.taozhuma.activity.TzmToySetMealActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:241:9-245:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:243:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:244:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:242:13-59
+activity#com.ruiyu.taozhuma.activity.TzmAboutusActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:247:9-251:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:249:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:250:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:248:13-56
+activity#com.ruiyu.taozhuma.activity.TzmAddAdressActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:253:9-257:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:255:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:256:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:254:13-58
+activity#com.ruiyu.taozhuma.activity.TzmAddressListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:259:9-264:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:261:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:263:13-52
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:262:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:260:13-60
+activity#com.ruiyu.taozhuma.activity.TzmAddCommentActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:266:9-270:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:268:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:269:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:267:13-59
+activity#com.ruiyu.taozhuma.activity.TzmAddressEditActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:272:9-276:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:274:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:275:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:273:13-60
+activity#com.ruiyu.taozhuma.activity.TzmCollectActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:279:9-283:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:281:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:282:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:280:13-56
+activity#com.ruiyu.taozhuma.activity.TzmCollectActivity2
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:285:9-289:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:287:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:288:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:286:13-57
+activity#com.ruiyu.taozhuma.activity.TzmConsumerProductActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:291:9-295:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:293:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:294:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:292:13-64
+activity#com.ruiyu.taozhuma.activity.TzmDeclarationActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:297:9-301:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:299:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:300:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:298:13-60
+activity#com.ruiyu.taozhuma.activity.TzmFeedbackActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:303:9-307:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:305:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:306:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:304:13-57
+activity#com.ruiyu.taozhuma.activity.TzmForgetPasswordActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:309:9-313:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:311:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:312:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:310:13-63
+activity#com.ruiyu.taozhuma.activity.TzmHelpTypeListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:315:9-319:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:317:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:318:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:316:13-61
+activity#com.ruiyu.taozhuma.activity.TzmLoginActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:321:9-325:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:323:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:324:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:322:13-54
+activity#com.ruiyu.taozhuma.activity.TzmClientInfoActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:327:9-331:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:329:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:330:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:328:13-59
+activity#com.ruiyu.taozhuma.activity.TzmClientInfoDetailActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:333:9-337:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:335:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:336:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:334:13-65
+activity#com.ruiyu.taozhuma.activity.TzmRegisterActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:339:9-343:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:341:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:342:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:340:13-57
+activity#com.ruiyu.taozhuma.activity.TzmSettingActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:345:9-349:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:347:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:348:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:346:13-56
+activity#com.ruiyu.taozhuma.activity.TzmShopListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:351:9-355:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:353:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:354:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:352:13-57
+activity#com.ruiyu.taozhuma.activity.TzmShopDetailActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:357:9-361:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:359:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:360:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:358:13-59
+activity#com.ruiyu.taozhuma.activity.TzmOrderListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:363:9-374:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:365:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:366:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:364:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:367:13-373:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:368:17-69
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:368:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:370:17-76
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:370:27-73
+data
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:372:17-61
+	android:scheme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:372:23-58
+activity#com.ruiyu.taozhuma.activity.TzmInfoLlistActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:376:9-380:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:378:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:379:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:377:13-58
+activity#com.ruiyu.taozhuma.activity.InfoDetailActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:382:9-386:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:384:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:385:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:383:13-56
+activity#com.ruiyu.taozhuma.activity.TzmActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:388:9-392:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:390:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:391:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:389:13-49
+activity#com.ruiyu.taozhuma.activity.TzmCommentListAcyivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:394:9-398:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:396:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:397:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:395:13-60
+activity#com.ruiyu.taozhuma.activity.TzmSelctAddressActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:400:9-412:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:402:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:404:13-54
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:403:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:401:13-61
+activity#com.ruiyu.taozhuma.activity.TzmSelectAddressListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:414:9-418:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:416:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:417:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:415:13-66
+activity#com.ruiyu.taozhuma.activity.TzmProductListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:420:9-424:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:422:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:423:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:421:13-60
+activity#com.ruiyu.taozhuma.activity.TzmExpressActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:426:9-430:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:428:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:429:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:427:13-56
+activity#com.ruiyu.taozhuma.activity.TzmHelpListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:432:9-436:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:434:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:435:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:433:13-57
+activity#com.ruiyu.taozhuma.activity.TzmReSetPassWork
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:438:9-442:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:440:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:441:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:439:13-54
+activity#com.ruiyu.taozhuma.activity.TzmHelpSearchListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:444:9-448:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:446:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:447:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:445:13-63
+activity#com.ruiyu.taozhuma.activity.TzmApplyConsumerActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:450:9-454:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:452:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:453:13-71
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:451:13-62
+activity#com.ruiyu.taozhuma.activity.TzmApplyManufacturerActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:456:9-460:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:458:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:459:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:457:13-66
+activity#com.ruiyu.taozhuma.activity.TzmSearchActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:462:9-467:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:464:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:466:13-73
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:465:13-72
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:463:13-55
+activity#com.ruiyu.taozhuma.activity.TzmSearch2Activity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:468:9-473:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:470:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:472:13-73
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:471:13-72
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:469:13-56
+activity#com.ruiyu.taozhuma.activity.TzmSearchItemActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:475:9-479:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:477:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:478:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:476:13-59
+activity#com.ruiyu.taozhuma.activity.TzmCommentActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:481:9-485:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:483:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:484:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:482:13-56
+activity#com.ruiyu.taozhuma.activity.TzmApplyRefundActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:487:9-491:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:489:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:490:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:488:13-60
+activity#com.ruiyu.taozhuma.activity.TzmInfoHelpActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:493:9-497:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:495:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:496:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:494:13-57
+activity#com.ruiyu.taozhuma.activity.ShowHelpChildListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:499:9-503:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:501:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:502:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:500:13-63
+activity#com.ruiyu.taozhuma.activity.TzmMyRefundActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:505:9-509:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:507:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:508:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:506:13-57
+activity#com.ruiyu.taozhuma.activity.TzmLogisticsActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:511:9-515:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:513:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:514:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:512:13-58
+activity#com.ruiyu.taozhuma.activity.TzmProductListsActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:517:9-521:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:519:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:520:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:518:13-61
+activity#com.ruiyu.taozhuma.activity.TzmCommentListsActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:523:9-527:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:525:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:526:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:524:13-61
+activity#com.ruiyu.taozhuma.activity.TzmShopSettingActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:529:9-533:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:531:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:532:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:530:13-60
+activity#com.ruiyu.taozhuma.activity.TzmMyFootActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:535:9-539:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:537:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:538:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:536:13-55
+activity#com.ruiyu.taozhuma.activity.NewMyFootActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:541:9-545:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:543:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:544:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:542:13-55
+activity#com.ruiyu.taozhuma.activity.TzmLoginRegisterActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:547:9-552:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:549:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:551:13-54
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:550:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:548:13-62
+activity#com.ruiyu.taozhuma.activity.TzmAddDataActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:554:9-559:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:556:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:558:13-54
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:557:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:555:13-56
+activity#com.ruiyu.taozhuma.activity.CitiesActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:561:9-564:20
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:563:13-54
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:562:13-52
+activity#com.ruiyu.taozhuma.activity.SelectProductActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:566:9-570:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:568:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:569:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:567:13-59
+activity#com.ruiyu.taozhuma.activity.SelectShopActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:572:9-576:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:574:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:575:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:573:13-56
+activity#com.ruiyu.taozhuma.activity.TzmAgencyProductListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:578:9-582:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:580:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:581:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:579:13-66
+activity#com.ruiyu.taozhuma.activity.TenNewActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:584:9-588:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:586:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:587:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:585:13-52
+activity#com.ruiyu.taozhuma.activity.TzmPushOrderListActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:590:9-594:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:592:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:593:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:591:13-62
+activity#com.ruiyu.taozhuma.activity.ShoppingCartActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:596:9-600:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:598:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:599:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:597:13-58
+activity#com.ruiyu.taozhuma.activity.TzmAgentOrderActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:602:9-606:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:604:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:605:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:603:13-59
+activity#com.ruiyu.taozhuma.activity.DispatchCargoActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:608:9-612:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:610:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:611:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:609:13-59
+activity#com.ruiyu.taozhuma.activity.AgentOrdersDetailActicity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:614:9-618:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:616:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:617:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:615:13-63
+activity#com.ruiyu.taozhuma.activity.TzmEditUserInfoActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:620:9-624:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:622:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:623:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:621:13-61
+activity#com.ruiyu.taozhuma.activity.TzmResetNameActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:626:9-630:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:628:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:629:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:627:13-58
+activity#com.ruiyu.taozhuma.activity.TzmNewCommentsActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:632:9-636:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:634:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:635:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:633:13-78
+activity#com.ruiyu.taozhuma.activity.TzmOrderCheckActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:638:9-642:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:640:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:641:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:639:13-59
+activity#com.ruiyu.taozhuma.activity.TzmOrderCheckingActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:644:9-648:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:646:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:647:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:645:13-62
+activity#com.ruiyu.taozhuma.activity.BigCardsActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:650:9-654:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:652:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:653:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:651:13-54
+activity#com.ruiyu.taozhuma.activity.TzmReturnLogisticsActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:656:9-660:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:658:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:659:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:657:13-64
+activity#com.ruiyu.taozhuma.activity.InvitationCode1Activity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:662:9-666:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:664:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:665:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:663:13-61
+activity#com.ruiyu.taozhuma.activity.InvitationCode2Activity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:667:9-671:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:669:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:670:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:668:13-61
+activity#com.ruiyu.taozhuma.activity.TzmWalletActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:672:9-676:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:674:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:675:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:673:13-55
+activity#com.ruiyu.taozhuma.activity.InvitationCode3Activity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:677:9-681:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:679:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:680:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:678:13-61
+activity#com.ruiyu.taozhuma.activity.InviteWebActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:682:9-686:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:684:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:685:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:683:13-55
+service#com.umeng.update.net.DownloadingService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:688:9-691:19
+	android:process
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:690:13-50
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:689:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:693:9-696:20
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:695:13-72
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:694:13-65
+meta-data#UMENG_APPKEY
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:698:9-700:56
+	android:value
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:700:13-53
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:699:13-40
+meta-data#UMENG_CHANNEL
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:702:9-704:37
+	android:value
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:704:13-34
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:703:13-41
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:705:9-708:21
+	android:value
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:707:13-61
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:706:13-48
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:711:9-714:20
+	android:exported
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:713:13-37
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:712:13-80
+receiver#com.umeng.message.SystemReceiver
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:716:9-730:20
+	android:process
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:718:13-36
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:717:13-60
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:719:13-721:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:720:17-79
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:720:25-76
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:722:13-724:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:723:17-79
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:723:25-76
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:725:13-729:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:726:17-80
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:726:25-77
+receiver#com.umeng.message.MessageReceiver
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:733:9-739:20
+	android:process
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:735:13-36
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:734:13-61
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:736:13-738:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:737:17-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:737:25-78
+receiver#com.umeng.message.ElectionReceiver
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:742:9-750:20
+	android:process
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:744:13-36
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:743:13-62
+intent-filter#org.agoo.android.intent.action.ELECTION_RESULT_V4+umeng
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:745:13-749:29
+action#org.agoo.android.intent.action.ELECTION_RESULT_V4
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:746:17-92
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:746:25-89
+category#umeng
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:748:17-50
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:748:27-47
+receiver#com.umeng.message.RegistrationReceiver
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:754:9-760:20
+	android:exported
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:756:13-37
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:755:13-66
+intent-filter#com.ruiyu.taozhuma.intent.action.COMMAND
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:757:13-759:29
+action#com.ruiyu.taozhuma.intent.action.COMMAND
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:758:17-83
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:758:25-80
+receiver#com.umeng.message.UmengMessageBootReceiver
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:761:9-765:20
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:761:19-76
+service#com.umeng.message.UmengService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:767:9-783:19
+	android:process
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:771:13-36
+	android:label
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:770:13-40
+	android:exported
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:769:13-36
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:768:13-58
+intent-filter#com.ruiyu.taozhuma.intent.action.START
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:772:13-774:29
+action#com.ruiyu.taozhuma.intent.action.START
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:773:17-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:773:25-78
+intent-filter#com.ruiyu.taozhuma.intent.action.COCKROACH
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:775:13-777:29
+action#com.ruiyu.taozhuma.intent.action.COCKROACH
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:776:17-85
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:776:25-82
+intent-filter#org.agoo.android.intent.action.PING_V4+umeng
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:778:13-782:29
+action#org.agoo.android.intent.action.PING_V4
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:779:17-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:779:25-78
+service#com.umeng.message.UmengIntentService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:784:9-786:39
+	android:process
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:786:13-36
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:785:13-64
+service#com.umeng.message.UmengMessageIntentReceiverService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:787:9-797:19
+	android:process
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:790:13-36
+	android:exported
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:789:13-36
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:788:13-79
+intent-filter#org.android.agoo.client.MessageReceiverService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:791:13-793:29
+action#org.android.agoo.client.MessageReceiverService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:792:17-89
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:792:25-86
+intent-filter#org.android.agoo.client.ElectionReceiverService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:794:13-796:29
+action#org.android.agoo.client.ElectionReceiverService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:795:17-90
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:795:25-87
+service#com.umeng.message.UmengMessageCallbackHandlerService
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:798:9-813:19
+	android:exported
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:800:13-37
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:799:13-80
+intent-filter#com.umeng.messge.registercallback.action
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:801:13-803:29
+action#com.umeng.messge.registercallback.action
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:802:17-83
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:802:25-80
+intent-filter#com.umeng.message.unregistercallback.action
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:804:13-806:29
+action#com.umeng.message.unregistercallback.action
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:805:17-86
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:805:25-83
+intent-filter#com.umeng.message.message.handler.action
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:807:13-809:29
+action#com.umeng.message.message.handler.action
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:808:17-83
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:808:25-80
+intent-filter#com.umeng.message.autoupdate.handler.action
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:810:13-812:29
+action#com.umeng.message.autoupdate.handler.action
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:811:17-86
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:811:25-83
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:818:9-824:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:822:13-47
+	android:exported
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:821:13-37
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:823:13-67
+	android:configChanges
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:820:13-74
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:819:13-60
+activity#com.ruiyu.taozhuma.wxapi.WXPayEntryActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:827:9-832:57
+	android:launchMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:830:13-43
+	android:exported
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:829:13-36
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:832:13-54
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:831:13-81
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:828:13-53
+receiver#net.sourceforge.simcpux.AppRegister
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:834:9-838:20
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:834:19-69
+intent-filter#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:835:13-837:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:836:17-100
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:836:25-97
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:840:9-846:71
+	android:launchMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:843:13-44
+	android:noHistory
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:844:13-37
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:846:13-68
+	android:configChanges
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:842:13-57
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:845:13-50
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:841:13-66
+activity#com.ruiyu.taozhuma.wxapi.WXEntryActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:847:9-852:75
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:851:13-49
+	android:exported
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:850:13-36
+	android:configChanges
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:849:13-74
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:852:13-72
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:848:13-50
+activity#com.ruiyu.taozhuma.SelectPicActivity
+ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:853:9-857:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:855:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:856:13-60
+	android:name
+		ADDED from C:\Users\Administrator\StudioProjects\TaoZhuMa\taoZhuMa\src\main\AndroidManifest.xml:854:13-46

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/gray_line" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            style="@style/CheckBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/content_bg"
+            android:padding="1dp"
+            android:layout_marginLeft="3dp"
+             >
+
+            <ImageView
+                android:id="@+id/iv_picture"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/tzm_defult_img" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:layout_alignParentTop="true" >
+
+                <TextView
+                    android:id="@+id/tv_product_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:text="木玩世家100粒大块儿童玩具宝宝木制益智新年礼物特价"
+                    android:textColor="#666464"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="¥ 108.0"
+                    android:textColor="#3e3a39" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_alignParentBottom="true" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp" >
+
+                    <ImageView
+                        android:id="@+id/im_reduce"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/u_num_des" />
+
+                    <EditText
+                        android:id="@+id/et_num"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_toRightOf="@id/im_reduce"
+                        android:background="@drawable/u_num_ipt"
+                        android:gravity="center"
+                        android:maxLength="5"
+                        android:numeric="integer"
+                        android:singleLine="true"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/im_add"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/et_num"
+                        android:src="@drawable/u_num_plus" />
+                </RelativeLayout>
+                
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+   <View 
+       android:layout_width="fill_parent"
+       android:layout_height="0.1dp"
+       android:background="@color/gray_line"
+       android:layout_marginRight="10dp"
+       android:layout_marginLeft="40dp"
+       />
+</LinearLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruiyu.taozhuma.widget.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llayout_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" >
+
+        <TextView
+            android:id="@+id/T2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/you_may_also_like"
+            android:textColor="@color/tzm_black"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/T2"
+            android:background="@color/gray_line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/T2"
+            android:background="@color/gray_line" />
+    </RelativeLayout>
+
+    <!-- 猜你喜欢 -->
+
+    <LinearLayout
+        android:id="@+id/ll_like"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <com.ruiyu.taozhuma.widget.PercentRelativeLayout
+                android:id="@+id/rl_like01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_gray_corner2"
+                android:padding="5dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/im_like01"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:layout_centerHorizontal="true"
+                    app:layout_heightPercent="95%w"
+                    app:layout_widthPercent="95%w"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tv_like_name01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_like_price01"
+                    android:layout_marginLeft="5dp"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:textColor="@color/tzm_black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_like_price01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im_like01"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/base"
+                    android:textSize="16sp" />
+            </com.ruiyu.taozhuma.widget.PercentRelativeLayout>
+
+            <com.ruiyu.taozhuma.widget.PercentRelativeLayout
+                android:id="@+id/rl_like02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_gray_corner2"
+                android:padding="5dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/im_like02"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:layout_centerHorizontal="true"
+                    app:layout_heightPercent="95%w"
+                    app:layout_widthPercent="95%w"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tv_like_name02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_like_price02"
+                    android:layout_marginLeft="5dp"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:textColor="@color/tzm_black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_like_price02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im_like02"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/base"
+                    android:textSize="16sp" />
+            </com.ruiyu.taozhuma.widget.PercentRelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <com.ruiyu.taozhuma.widget.PercentRelativeLayout
+                android:id="@+id/rl_like03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_gray_corner2"
+                android:padding="5dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/im_like03"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:layout_centerHorizontal="true"
+                    app:layout_heightPercent="95%w"
+                    app:layout_widthPercent="95%w"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tv_like_name03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_like_price03"
+                    android:layout_marginLeft="5dp"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:textColor="@color/tzm_black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_like_price03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im_like03"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/base"
+                    android:textSize="16sp" />
+            </com.ruiyu.taozhuma.widget.PercentRelativeLayout>
+
+            <com.ruiyu.taozhuma.widget.PercentRelativeLayout
+                android:id="@+id/rl_like04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_white_gray_corner2"
+                android:padding="5dp"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/im_like04"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:layout_centerHorizontal="true"
+                    app:layout_heightPercent="95%w"
+                    app:layout_widthPercent="95%w"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tv_like_name04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_like_price04"
+                    android:layout_marginLeft="5dp"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:textColor="@color/tzm_black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_like_price04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im_like04"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/base"
+                    android:textSize="16sp" />
+            </com.ruiyu.taozhuma.widget.PercentRelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.ruiyu.taozhuma.widget.PercentLinearLayout>

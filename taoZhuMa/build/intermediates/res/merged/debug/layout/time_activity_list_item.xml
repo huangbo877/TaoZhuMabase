@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_mian"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_white_gray_corner"
+        android:padding="1dp" >
+
+        <ImageView
+            android:id="@+id/im_product"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/rl01"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/tzm_text_gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_skuvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_product"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/rl01"
+        android:textColor="@color/tzm_text_sys_default"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="92dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_skuvalue"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/green_corner"
+        android:clickable="false"
+        android:text="@string/activity_wait"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_skuvalue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/btn_buy"
+        android:layout_toRightOf="@+id/rl01"
+        android:textColor="@color/base"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/tzm_empty"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            style="@style/CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/content_bg"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/iv_picture"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" >
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="2"
+                android:text="木玩世家100粒大块儿童玩具宝宝木制益智新年礼物特价"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_product_name"
+                android:layout_marginTop="8dp"
+                android:text="¥ 108.00"
+                android:textColor="@color/red" />
+
+            <ImageView
+                android:id="@+id/im_reduce"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/tv_price"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/jian_box" />
+
+            <EditText
+                android:id="@+id/et_num"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/im_reduce"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_toRightOf="@id/im_reduce"
+                android:background="@drawable/content_bg2"
+                android:singleLine="true"
+                android:maxLength="5"
+                android:gravity="center"
+                android:numeric="integer"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/im_add"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/et_num"
+                android:layout_toRightOf="@id/et_num"
+                android:src="@drawable/jia_box" />
+
+            <TextView
+                android:id="@+id/tv_allprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_price"
+                android:layout_alignParentRight="true"
+                android:text="小计：80"
+                android:textColor="@color/red" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

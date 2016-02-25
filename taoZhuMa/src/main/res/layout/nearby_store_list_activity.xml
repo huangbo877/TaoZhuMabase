@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/light_gray_tittle" >
+
+        <ImageButton
+            android:id="@+id/imbt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:src="@drawable/nav_arrow_d" />
+
+        <TextView
+            style="@style/text_title_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="附近店铺" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_line" />
+
+    <ListView
+        android:id="@+id/lv_store_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp" 
+        android:divider="#00000000"
+        >
+    </ListView>
+
+</LinearLayout>

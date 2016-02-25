@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.ruiyu.taozhuma.widget.FlexibleRatingBar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rabarServer"
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="5dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="1"
+            app:colorFillOff="@color/gray_line"
+            app:colorFillOn="@color/base"
+            app:colorFillPressedOff="@color/gray_line"
+            app:colorFillPressedOn="@color/base"
+            app:colorOutlineOff="@color/transparent"
+            app:colorOutlineOn="@color/transparent"
+            app:colorOutlinePressed="@color/transparent"
+            app:polygonRotation="0"
+            app:polygonVertices="5"
+            app:strokeWidth="5dp" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/rabarServer"
+            android:textColor="@color/tzm_text_sys_default" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextView"
+            android:textColor="@color/tzm_text_sys_default_light"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_sku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="TextView"
+            android:textColor="@color/tzm_text_sys_default_light"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_line" />
+
+</LinearLayout>

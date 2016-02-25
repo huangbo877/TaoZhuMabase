@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/tzm_26" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#e22400"
+                android:textSize="18sp"
+                android:text="创新·开放·分享·责任" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="一个生态的筑建!"
+                style="@style/aboutus_text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="一份产业的创新!"
+                style="@style/aboutus_text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="一种文化的涅槃!"
+                style="@style/aboutus_text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="一群前卫的人群!"
+                style="@style/aboutus_text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="这就是“群宇”，不断追求互联商业模式转变。"
+                style="@style/aboutus_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="　　广东群宇创办于2007年，前身是汕头市爱迪尔文化传媒有限公司。2014年引进战略投资，重组为广东群宇互动科技有限公司，全面接管、进驻宇博电商园，公司与时俱进进行平台战略和新商业模式布局。"
+                style="@style/aboutus_text" />
+
+            <TextView
+                style="@style/aboutus_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="　　在移动互联网、大数据、云计算等科技不断发展的背景下，响应汕头市政府高瞻远瞩创建国家电子商务示范城市“退二进三”的战略下“群宇互动科技”对市场、用户、产品、企业价值链乃至整个商业生态不断探索新的商业模式。在玩具产业迫切需要转型升级、完善产业链的大环境下我们用互联网思维模式，创新提出围绕玩具渠道平台化转型营造“生态链”，帮助玩具企业实现更全面的电子商务化推进玩具渠道向平台化运营转型升级，构建玩具产业链的信息流、渠道流、物流、资金流以及人才流等多方共赢的格局。" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="　　“群宇互动科技”拥有锐意求新的技术研发团队和运营团队、多模多维的孵化平台、配套齐全的电子商务产业园，将推进玩具产业链平台化运营，筑建互联网、物流网、云网，三网生态系统，打造玩具产业链、电商产业链生态圈。"
+                style="@style/aboutus_text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="　　“群宇互动科技”以自建、自营式PC平台及APP平台运营，旗下有三大玩具母婴用品类线上垂直平台：玩具总汇网B2B平台、淘竹马网M2C平台、翻动城网B2C平台；线下有宇博电商产业园、《玩具总汇》期刊、梁山电商学院、梁山创业联盟。"
+                style="@style/aboutus_text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="　　以“打造产业链互联生态圈”为愿景，我们秉承客户第一、团队合作、拥抱变化的企业宗旨和创新、开放、分享、责任的经营理念，整合B2B、B2C、M2C、O2O等多类平台模式，让玩具产业电子商务梦想触手可及，渠道扩展赢得先机。"
+                style="@style/aboutus_text" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:text="　　 群宇：群英汇策，臻宇至上。市场逐鹿，群雄竞起，我们有算定全局的智谋，我们有一往无前的勇气，决战必胜的信念，傲视天下的魄力。山高路远，无止无息；我们群宇人折冲阵前，直面所惧，登凌绝顶，虽万千人吾往矣！"
+                style="@style/aboutus_text" />
+
+            <ImageView
+                android:id="@+id/img_about1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/about1" />
+            <ImageView
+                android:id="@+id/img_about2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="70dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/about2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

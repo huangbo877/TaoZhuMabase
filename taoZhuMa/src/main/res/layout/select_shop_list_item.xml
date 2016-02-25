@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:background="@drawable/bg_white_gray_corner" >
+
+        <ImageView
+            android:id="@+id/im_shoplist"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:src="@drawable/tzm34" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/im_shoplist"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="主营:"
+            android:textColor="#424242"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_mainCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/im_shoplist"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/t1"
+            android:text="过家家玩具"
+            android:textColor="#424242"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mainCategory"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="5dp"
+            android:text="地址:"
+            android:textColor="#353535"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mainCategory"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/test2"
+            android:text="广东省汕头市澄海区技版赛车"
+            android:textColor="#353535"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#DFDFDF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/bg_white_gray_corner" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="琪琪玩具店"
+            android:textColor="#353535"
+            android:textSize="15sp" />
+
+       <!--  <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/tzm35" /> -->
+    </RelativeLayout>
+
+</LinearLayout>

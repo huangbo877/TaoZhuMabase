@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2F2F2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/tzm_271" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_shopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_logo"
+            android:clickable="true"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/tzm_text_sys_default"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_shopName"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:id="@+id/tv_orderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:textColor="@color/base"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#E6E6E6" />
+
+    <LinearLayout
+        android:id="@+id/rl_orderDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingBottom="10dp" >
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#E6E6E6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/tv_orderPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_orderPrice"
+            android:text="@string/cctually_paid"
+            android:textColor="@color/tzm_text_gray" />
+
+        <TextView
+            android:id="@+id/tv_allnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tv_text"
+            android:textColor="@color/tzm_text_gray" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#E6E6E6" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/content_bg"
+                android:ems="5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/delete_orders"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_wuliu"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/content_bg"
+                android:ems="5"
+                android:visibility="gone"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/view_logistics"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/content_bg1"
+                android:ems="5"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:text="@string/evaluation"
+                android:visibility="gone"
+                android:textColor="@color/base"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_comfire"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/content_bg"
+                android:ems="5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/confirm_receipt"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_daifahuo"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/content_bg"
+                android:ems="5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/app_name7"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_yiping"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/content_bg"
+                android:ems="5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/commented"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_fukuang"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/pink_stroke"
+                android:ems="5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/pay_now"
+                android:textColor="@color/base"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/gray_line" />
+
+</LinearLayout>

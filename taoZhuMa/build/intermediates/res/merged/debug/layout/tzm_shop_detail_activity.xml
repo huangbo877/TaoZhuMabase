@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/btn_head_left"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/icon_back2" />
+
+        <TextView
+            android:id="@+id/text_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/img"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_line" />
+
+        <ImageView
+            android:id="@+id/collect"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/u_favorite" />
+
+        <ImageView
+            android:id="@+id/cancel_collect"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/u_favorite_in"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <!-- 综合 ,人气,价格 ,销量 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <com.ruiyu.taozhuma.widget.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_zonghe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/zong_he"
+                    android:textColor="@color/base"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/first_line"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/tv_zonghe"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/tv_popular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ren_qi"
+                        android:textColor="@color/base_tttt"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_popular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/tzm_266" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/second_line"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/iv_popular"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jia_ge"
+                        android:textColor="@color/base_tttt"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/tzm_266" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/third_line"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/iv_price"
+                android:background="@color/gray_line" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/tv_sales"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xiao_liang"
+                        android:textColor="@color/base_tttt"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_sales"
+                        android:layout_width="wrap_content"
+                        android:layout_height="14dp"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/tzm_266" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.ruiyu.taozhuma.widget.PercentLinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/gray_line" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ptrf_sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrHeaderTextColor="@color/black"
+        ptr:ptrMode="both" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.ruiyu.taozhuma.widget.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/iv_headview"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_heightPercent="48%w"
+                    app:layout_widthPercent="100%w"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/loading_long" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_alignBottom="@+id/iv_headview"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/imageView1"
+                    android:src="@drawable/jb_shape" />
+
+                <TextView
+                    android:id="@+id/tv_j"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_alignBottom="@+id/iv_headview"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"                    
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_mj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_headview"
+                    android:layout_marginBottom="2dp"
+                    android:layout_toRightOf="@+id/tv_j"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_headview"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignBottom="@+id/iv_headview"
+                    android:layout_marginBottom="2dp"
+                    android:layout_toLeftOf="@+id/tv_time"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:src="@drawable/tzm3103" />
+            </com.ruiyu.taozhuma.widget.PercentRelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/gray_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_intruduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" >
+
+                <ImageButton
+                    android:id="@+id/imbt"
+                    android:layout_width="15dp"
+                    android:layout_height="8dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/tzm_269" />
+
+                <TextView
+                    android:id="@+id/tv_head_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/imbt"
+                    android:ellipsize="end"
+                    android:lineSpacingMultiplier="1.2"
+                    android:maxLines="2"
+                    android:textColor="@color/tzm_text_sys_default" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/gray_line" />
+
+            <com.ruiyu.taozhuma.widget.GridViewForScrollView
+                android:id="@+id/tzm_shop_detail_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:horizontalSpacing="3dp"
+                android:numColumns="2"
+                android:padding="3dp"
+                android:smoothScrollbar="true"
+                android:verticalSpacing="3dp" >
+            </com.ruiyu.taozhuma.widget.GridViewForScrollView>
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>

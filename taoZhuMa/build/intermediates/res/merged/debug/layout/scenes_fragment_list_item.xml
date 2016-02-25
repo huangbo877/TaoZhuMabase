@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruiyu.taozhuma.widget.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main_scenes_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/iv_picture__scenes_fragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="48%w"
+        app:layout_widthPercent="100%w"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/loading_long" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff" >
+
+        <TextView
+            android:id="@+id/tv_tittle_scenes_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/tzm_black" />
+
+        <TextView
+            android:id="@+id/tv_time_scenes_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/tzm_text_sys_default"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</com.ruiyu.taozhuma.widget.PercentLinearLayout>

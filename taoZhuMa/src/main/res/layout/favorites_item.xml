@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg" >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/fa_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_empty_photo" />
+
+            <RelativeLayout
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/fa_name"
+                    style="@style/text_title_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"/>
+
+                <TextView
+                    android:layout_below="@+id/fa_name"
+                    android:id="@+id/fa_number"
+                    style="@style/text_title_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red" />
+
+                <TextView
+                    android:layout_below="@+id/fa_number"
+                    android:id="@+id/fa_price"
+                    style="@style/text_title_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="15dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray_line" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/fa_button"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@color/red"
+                android:text="取消收藏"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

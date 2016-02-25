@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ibg"
+        android:orientation="vertical" >
+
+        <com.ruiyu.taozhuma.widget.CircularImage
+            android:id="@+id/iv_photo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/tzm_defult_img"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/app_name"
+            android:textColor="@color/itext" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:src="@drawable/tzm402" />
+
+            <TextView
+                android:id="@+id/tv_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="38dp"
+                android:text="@string/app_name"
+                android:textColor="@color/base" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_prompt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:lines="3"
+            android:textColor="@color/itext" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="45dp" >
+
+            <Button
+                android:id="@+id/bt_share"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_pink_corner"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:text="@string/itext3"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/bt_shop"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/bg_pink_shape_corner"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:text="@string/itext4"
+                android:textColor="@color/base" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

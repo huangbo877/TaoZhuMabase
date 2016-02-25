@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_gray_shape_corner"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/loding_defult" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:paddingBottom="15dp" >
+        <EditText
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="top"
+            android:background="@drawable/bg_gray_shape_corner"
+            android:lines="3"
+            android:hint="说两句吧..."
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="2dp"
+            android:textSize="16sp" >
+        </EditText>
+        </LinearLayout>
+
+</LinearLayout>

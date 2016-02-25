@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:focusable="true"  
+   	android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_header"
+        layout="@layout/common_header" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="3dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="店铺名称" />
+
+                    <EditText
+                        android:id="@+id/et_companyName"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv1"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:hint="请输入您的店铺名称"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="主营类目" />
+					<LinearLayout 
+                       	android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:layout_margin="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_below="@id/tv2"
+                        android:orientation="horizontal"
+                        android:layout_alignParentLeft="true" >
+                        
+					<TextView 
+					    android:id="@+id/tv_mainCategory"
+					     android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="请选择主营类目"
+                        android:clickable="true"
+                        android:textColor="#C0C0C0"
+                        android:textSize="16sp"/> 
+                   <Spinner
+                        android:id="@+id/sp_mainCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/text_title_style"
+                        android:visibility="gone"
+                        android:layout_gravity="left"
+                        android:background="@null" /> 
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="运营总人数" />
+					<LinearLayout 
+                       	android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:layout_margin="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_below="@id/tv3"
+                        android:orientation="horizontal"
+                        android:layout_alignParentLeft="true" >
+                        
+					<TextView 
+					    android:id="@+id/tv_groups"
+					     android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="请选择运营总人数"
+                        android:clickable="true"
+                        android:textColor="#C0C0C0"
+                        android:textSize="16sp"/> 
+                   <Spinner
+                        android:id="@+id/sp_groups"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/text_title_style"
+                        android:visibility="gone"
+                        android:layout_gravity="left"
+                        android:background="@null" /> 
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="销售平台" />
+
+                    <EditText
+                        android:id="@+id/et_platform"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv4"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:hint="请输入您的销售平台"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="销售地区" />
+
+                    <EditText
+                        android:id="@+id/et_salesArea"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv5"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:hint="请输入您的销售地区"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="3dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="联系人" />
+
+                    <EditText
+                        android:id="@+id/et_contact"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/tv6"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:hint="请输入联系人姓名"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="联系人职务" />
+
+                    <EditText
+                        android:id="@+id/et_duty"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv7"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:hint="请输入联系人的职务"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="联系人Email" />
+
+                    <EditText
+                        android:id="@+id/et_email"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv8"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:hint="请输入联系人的Email"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="联系QQ" />
+
+                    <EditText
+                        android:id="@+id/et_QQ"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv9"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:hint="请输入QQ方便在线交流"
+                        android:inputType="number"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv10"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="联系电话" />
+
+                    <EditText
+                        android:id="@+id/et_tel"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv10"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:hint="请输入电话"
+                        android:inputType="number"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="手机号码" />
+
+                    <EditText
+                        android:id="@+id/et_phone"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv11"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="请输入常用手机号码"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/tv12"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="传真号码" />
+
+                    <EditText
+                        android:id="@+id/et_fax"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/tv12"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="请输入传真号码"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="3dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tv_13"
+                            style="@style/text_title_style2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="店铺类型" />
+
+                        <ImageView
+                            android:id="@+id/img_type1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/tzm_128" />
+
+                        <TextView
+                            android:id="@+id/tv_type1"
+                            style="@style/text_title_style2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="1dp"
+                            android:text="实体店" />
+
+                        <ImageView
+                            android:id="@+id/img_type2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/tzm_127" />
+
+                        <TextView
+                            android:id="@+id/tv_type2"
+                            style="@style/text_title_style2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="1dp"
+                            android:text="网店" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/et_content"
+                        style="@style/edittext_hint_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/LinearLayout01"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bg_white_gray_corner"
+                        android:ems="10"
+                        android:hint="请输入公司地址"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true" >
+                    </EditText>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" >
+
+                    <CheckBox
+                        android:id="@+id/cb_consent"
+                        style="@style/text_title_style2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:paddingLeft="18dp"
+                        android:button="@drawable/bg_checked_selector2"
+                        android:text="我已同意" />
+
+                    <TextView
+                        android:id="@+id/tv14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/cb_consent"
+                        android:paddingLeft="20dp"
+                        android:text="分销服务条款"
+                        android:textColor="#C0C0C0"
+                        android:textSize="18sp" />
+                    
+                    <TextView
+                        android:id="@+id/tv15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/tv14"
+                        android:paddingLeft="20dp"
+                        android:text="分销商协议"
+                        android:textColor="#C0C0C0"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/applyConsumer_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/corner_red"
+                android:gravity="center"
+                android:text="申请分销"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

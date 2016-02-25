@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llayout_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.ruiyu.taozhuma.widget.InnerScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+             <com.ruiyu.taozhuma.widget.WebViewForViewPager
+                android:id="@+id/wv_imglist"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="none" /> 
+
+            <com.ruiyu.taozhuma.widget.ListViewForScrollView2
+                android:id="@+id/lv_imglist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                
+                android:smoothScrollbar="true"
+                android:visibility="gone" >
+            </com.ruiyu.taozhuma.widget.ListViewForScrollView2>
+
+            <LinearLayout
+                android:id="@+id/image_list_llayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="500dp" >
+
+                    <TextView
+                        android:id="@+id/T2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="猜你喜欢"
+                        android:textColor="#717071"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/T2"
+                        android:background="#dcdddd" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@id/T2"
+                        android:background="#dcdddd" />
+                </RelativeLayout>
+
+                <!-- 猜你喜欢 -->
+
+                <LinearLayout
+                    android:id="@+id/ll_like"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="3dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            android:id="@+id/rl_like01"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_white_gray_corner2"
+                            android:padding="5dp"
+                            android:visibility="invisible" >
+
+                            <ImageView
+                                android:id="@+id/im_like01"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/tzm49" />
+
+                            <TextView
+                                android:id="@+id/tv_like_name01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tv_like_price01"
+                                android:layout_marginLeft="5dp"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="宝宝手拍鼓/电子琴儿童拍拍玩具"
+                                android:textColor="#717071"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/tv_like_price01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/im_like01"
+                                android:layout_marginTop="8dp"
+                                android:text="¥ 38.8"
+                                android:textColor="#e61d58"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rl_like02"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_white_gray_corner2"
+                            android:padding="5dp"
+                            android:visibility="invisible" >
+
+                            <ImageView
+                                android:id="@+id/im_like02"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/tzm49" />
+
+                            <TextView
+                                android:id="@+id/tv_like_name02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tv_like_price02"
+                                android:layout_marginLeft="5dp"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="宝宝手拍鼓/电子琴儿童拍拍玩具"
+                                android:textColor="#717071"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/tv_like_price02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/im_like02"
+                                android:layout_marginTop="8dp"
+                                android:text="¥ 38.8"
+                                android:textColor="#e61d58"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            android:id="@+id/rl_like03"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_white_gray_corner2"
+                            android:padding="5dp"
+                            android:visibility="invisible" >
+
+                            <ImageView
+                                android:id="@+id/im_like03"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/tzm49" />
+
+                            <TextView
+                                android:id="@+id/tv_like_name03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tv_like_price03"
+                                android:layout_marginLeft="5dp"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="宝宝手拍鼓/电子琴儿童拍拍玩具"
+                                android:textColor="#717071"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/tv_like_price03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/im_like03"
+                                android:layout_marginTop="8dp"
+                                android:text="¥ 38.8"
+                                android:textColor="#e61d58"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rl_like04"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_white_gray_corner2"
+                            android:padding="5dp"
+                            android:visibility="invisible" >
+
+                            <ImageView
+                                android:id="@+id/im_like04"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_centerHorizontal="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/tzm49" />
+
+                            <TextView
+                                android:id="@+id/tv_like_name04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tv_like_price04"
+                                android:layout_marginLeft="5dp"
+                                android:ellipsize="end"
+                                android:lines="2"
+                                android:text="宝宝手拍鼓/电子琴儿童拍拍玩具"
+                                android:textColor="#717071"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/tv_like_price04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/im_like04"
+                                android:layout_marginTop="8dp"
+                                android:text="¥ 38.8"
+                                android:textColor="#e61d58"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ruiyu.taozhuma.widget.InnerScrollView>
+
+</LinearLayout>

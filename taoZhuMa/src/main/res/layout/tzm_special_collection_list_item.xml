@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main_special_collection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/iv_picture_sepcial_collection"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_special_collection"
+        style="@style/MyCheckBox03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_picture_sepcial_collection"
+        android:layout_alignTop="@+id/iv_picture_sepcial_collection"
+        android:layout_marginTop="5dp"
+        android:padding="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_picture_sepcial_collection"
+        android:background="#fff"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/tv_tittle_special_colleciton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="陶竹马自营专场特卖" />
+
+        <TextView
+            android:id="@+id/tv_status_special_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="进行中"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/base" />
+    </RelativeLayout>
+
+</RelativeLayout>

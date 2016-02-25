@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+     >
+
+    <RelativeLayout
+        android:id="@+id/rl_topview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/im_shoplogo"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/tzm_271" />
+
+        <TextView
+            android:id="@+id/tv_shopname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/im_shoplogo" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_goshop"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_product"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp" >
+
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_gray_corner2"
+            android:cursorVisible="false"
+            android:hint="@string/message_tips"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="5dp"
+            android:textColorHint="@color/light_gray_tittle"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

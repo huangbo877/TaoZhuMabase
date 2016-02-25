@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg_head" >
+
+    <com.ruiyu.taozhuma.widget.PercentRelativeLayout
+        android:id="@+id/c_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:background="@drawable/bg_white_gray_corner"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_picture"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            app:layout_heightPercent="95%w"
+            app:layout_widthPercent="95%w" />
+
+        <ImageView
+            android:id="@+id/iv_product_status"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            app:layout_heightPercent="95%w"
+            app:layout_widthPercent="95%w"
+            android:background="@color/semitransparent_black2"
+            android:padding="45dp"
+            android:src="@drawable/tzm318" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/iv_picture"
+            android:layout_marginTop="2dp"
+            android:background="#ececec" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_picture"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="13dp"
+            android:text="价格"
+            android:textSize="16sp"
+            android:textColor="#DF434E" />
+
+        <TextView
+            android:id="@+id/tv_yincan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_price"
+            android:layout_alignBottom="@+id/tv_price"
+            android:layout_alignRight="@+id/view1"
+            android:textColor="#DF434E"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_yincan"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            
+            android:layout_marginRight="5dp"
+            android:src="@drawable/lijigoumai" />
+
+        <CheckBox
+            android:id="@+id/cb_sp"
+            style="@style/MyCheckBox03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tv_price"
+            android:layout_alignTop="@+id/iv_picture"
+            android:layout_marginTop="5dp"
+            android:padding="5dp" />
+    </com.ruiyu.taozhuma.widget.PercentRelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:background="#44222222"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</FrameLayout>

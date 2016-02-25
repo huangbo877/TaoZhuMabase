@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_gray_shape_corner"
+            android:padding="1dp" >
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/loding_defult" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_p_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_chesk1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/test_ms"
+            android:textColor="@color/text_chesk1"
+            android:textSize="16sp" />
+
+        <com.ruiyu.taozhuma.widget.FlexibleRatingBar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/rabarServer3"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="1"
+            app:colorFillOff="@color/gray_line"
+            app:colorFillOn="@color/base"
+            app:colorFillPressedOff="@color/gray_line"
+            app:colorFillPressedOn="@color/base"
+            app:colorOutlineOff="@color/transparent"
+            app:colorOutlineOn="@color/transparent"
+            app:colorOutlinePressed="@color/transparent"
+            app:polygonRotation="0"
+            app:polygonVertices="5"
+            app:strokeWidth="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:paddingBottom="15dp" >
+
+        <EditText
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_layout_shape3"
+            android:gravity="top"
+            android:hint="说说你和这件小物的故事吧(140字内)"
+            android:lines="4"
+            android:maxLength="140"
+            android:paddingBottom="8dp"
+            android:paddingLeft="2dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/text_chesk4"
+            android:textColorHint="@color/text_chesk4"
+            android:textSize="16sp" >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/rl_image1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_gray_shape_corner"
+                android:padding="1dp" >
+
+                <ImageView
+                    android:id="@+id/product_image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/photo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_image2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_gray_shape_corner"
+                android:padding="1dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/product_image2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/photo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_image3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_gray_shape_corner"
+                android:padding="1dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/product_image3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/photo" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

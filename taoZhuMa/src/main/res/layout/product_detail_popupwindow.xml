@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/iv_productimg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/cha" />
+
+        <TextView
+            android:id="@+id/tv_productname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/iv_cancel"
+            android:layout_toRightOf="@+id/iv_productimg"
+            android:maxLines="2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_productname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/iv_cancel"
+            android:layout_toRightOf="@+id/iv_productimg"
+            android:textColor="@color/base"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <!-- sku模块-start -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/gray_line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_sku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/tv_sku_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/sku_color1" />
+
+            <com.ruiyu.taozhuma.widget.GridViewForScrollView
+                android:id="@+id/gv_sku_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@color/transparent"
+                android:descendantFocusability="blocksDescendants"
+                android:numColumns="4"
+                android:verticalSpacing="5dp"
+                android:visibility="gone" >
+            </com.ruiyu.taozhuma.widget.GridViewForScrollView>
+
+            <com.ruiyu.taozhuma.widget.FlowLayout
+                android:id="@+id/flowlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray_line" />
+
+            <TextView
+                android:id="@+id/tv_sku_fromat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/sku_format" />
+
+            <com.ruiyu.taozhuma.widget.GridViewForScrollView
+                android:id="@+id/gv_sku_fromat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@color/transparent"
+                android:descendantFocusability="blocksDescendants"
+                android:numColumns="4"
+                android:verticalSpacing="5dp"
+                android:visibility="gone" >
+            </com.ruiyu.taozhuma.widget.GridViewForScrollView>
+
+            <com.ruiyu.taozhuma.widget.FlowLayout
+                android:id="@+id/flowlayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray_line" />
+        </LinearLayout>
+        <!-- sku模块-end -->
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/gray_line" />
+
+    <Button
+        android:id="@+id/btn_affirm"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_pink_corner"
+        android:text="@string/determine"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="2dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_consumer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_pictrue"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <CheckBox
+            android:id="@+id/cb_select"
+            style="@style/MyCheckBox03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <ImageView
+            android:id="@+id/iv_Selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qt02_02"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_pictrue"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="奥迪双钻儿童玩具竞技版赛车"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_old_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_product_name"
+            android:layout_marginTop="5dp"
+            android:lines="1"
+            android:text="¥ 109.00"
+            android:textColor="#DF434E" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_product_name"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/tv_old_price"
+            android:text="¥ 169.00"
+            android:textColor="#DF434E"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</FrameLayout>

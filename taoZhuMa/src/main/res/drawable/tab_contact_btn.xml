@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <item android:drawable="@drawable/tab_tel_on" android:state_checked="true"/>
+    <item android:drawable="@drawable/tab_tel"/>
+    -->
+    <item android:state_checked="true"><bitmap android:gravity="top" android:src="@drawable/tzm_new_o_on" android:tileMode="disabled" />
+    </item>
+    <item><bitmap android:gravity="top" android:src="@drawable/tzm_new_o_off" android:tileMode="disabled" />
+    </item>
+
+</selector>

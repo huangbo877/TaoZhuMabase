@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/btn_head_left"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/icon_back2" />
+
+        <TextView
+            android:id="@+id/text_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/img"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <!--
+             <ImageView
+            android:id="@+id/collect"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/tzm_collect"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/cancel_collect"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/tzm_collect_s"
+            android:visibility="gone" />
+        -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_line" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/rl_popular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_popular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="人气"
+                android:textColor="#DF434E"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/iv_popular"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/tv_popular"
+                android:src="@drawable/tzm_264" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="价格"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/iv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/tv_price"
+                android:src="@drawable/tzm_266" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_sales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="销量"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/iv_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/tv_sales"
+                android:src="@drawable/tzm_266" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ptrf_sv_toySetMeal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrHeaderBackground="@color/white"
+        ptr:ptrHeaderTextColor="@color/black"
+        ptr:ptrMode="both" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_headview"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/loading_long" />
+
+            <RelativeLayout
+                android:id="@+id/rl_intruduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_show_new_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="¥¥¥29.3"
+                    android:textColor="@color/base" />
+
+                <TextView
+                    android:id="@+id/tv_old_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/tv_show_new_price"
+                    android:text="价格 ¥ "
+                    android:textColor="@color/gray" />
+
+                <TextView
+                    android:id="@+id/tv_old_price_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_show_new_price"
+                    android:layout_toRightOf="@+id/tv_old_price"
+                    android:text="29.3 "
+                    android:textColor="@color/gray" />
+
+                <Button
+                    android:id="@+id/btn_goshopping"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/bg_red_shape_corner"
+                    android:gravity="center"
+                    android:text="去购买"
+                    android:textColor="@color/base" />
+                <!--
+                   <ImageButton
+                    android:id="@+id/imbt"
+                    android:layout_width="15dp"
+                    android:layout_height="8dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tv_old_price"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/tzm_269" />
+                -->
+
+                <TextView
+                    android:id="@+id/tv_head_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btn_goshopping"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:lineSpacingMultiplier="1.2"
+                    android:maxLines="3"
+                    android:text="" />
+            </RelativeLayout>
+
+            <com.ruiyu.taozhuma.widget.GridViewForScrollView
+                android:id="@+id/tzm_shop_detail_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:cacheColorHint="#00000000"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:horizontalSpacing="5dp"
+                android:numColumns="2"
+                android:padding="8dp"
+                android:smoothScrollbar="true"
+                android:verticalSpacing="5dp" >
+            </com.ruiyu.taozhuma.widget.GridViewForScrollView>
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>

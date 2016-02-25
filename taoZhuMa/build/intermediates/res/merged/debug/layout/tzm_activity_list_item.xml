@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruiyu.taozhuma.widget.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="45%w"
+        app:layout_marginLeftPercent="1%w"
+        app:layout_marginRightPercent="1%w"
+        app:layout_marginTopPercent="1%w"
+        app:layout_widthPercent="98%w" >
+
+        <ImageView
+            android:id="@+id/iv_picture"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="45%w"
+            app:layout_marginLeftPercent="1%w"
+            app:layout_marginRightPercent="1%w"
+            app:layout_marginTopPercent="1%w"
+            app:layout_widthPercent="98%w"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/loading_long" />
+
+        <LinearLayout
+            android:id="@+id/ll_mj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="15dp"
+            app:layout_marginLeftPercent="1%w"
+            app:layout_marginRightPercent="1%w"
+            android:background="@drawable/tzm501"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp" >
+
+            <ImageView
+                android:id="@+id/tv_j"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3dp"
+                android:background="@drawable/tam502"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/tv_mj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/tzm_text_sys_default"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        app:layout_marginLeftPercent="1%w"
+        app:layout_marginRightPercent="1%w"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:paddingLeft="7dp" >
+
+        <TextView
+            android:id="@+id/tv_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/base"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="@color/tzm_black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_toLeftOf="@+id/tv_time"
+                android:src="@drawable/tzm3103" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:textColor="@color/tzm_text_sys_default"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.ruiyu.taozhuma.widget.PercentLinearLayout>

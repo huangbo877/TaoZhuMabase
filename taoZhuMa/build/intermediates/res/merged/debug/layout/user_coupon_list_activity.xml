@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@color/white" >
+
+        <Button
+            android:id="@+id/btn_head_left"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/icon_back2"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_head_title"
+            style="@style/text_title_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_head_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:text="@string/rule"
+            android:textColor="@color/base"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" >
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/pink_solid_corner"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/activation"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_add"
+            android:background="@drawable/gray_shape_corner"
+            android:hint="@string/input_tips"
+            android:inputType="number"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColorHint="@color/tzm_text_sys_default"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/prgl_coupon_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="#00000000"
+        android:dividerHeight="8dip"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/vouchers_empty"
+            android:textColor="@color/tzm_text_sys_default_light"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_above="@+id/tv_empty"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/tzm301" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/common_title"
+        layout="@layout/common_header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/sda_store_focus_image"
+            android:layout_width="match_parent"
+            android:layout_height="120dip"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/gray_line" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="10dip"
+        android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/all_goods"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/quanbubaobei12x" />
+
+            <TextView
+                style="@style/text_contact_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text="全部宝贝" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:id="@+id/ll_type"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/qububaobei2x" />
+
+            <TextView
+                style="@style/text_contact_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text="分类" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/shitirenzheng2x" />
+
+            <TextView
+                style="@style/text_contact_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text="实体认证" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:id="@+id/collection"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/im_cancle_collect"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/shoucang2x" 
+                />
+             <ImageView
+                 android:id="@+id/im_collect"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/shoucang1_empty"
+                android:visibility="gone"
+                 />
+
+            <TextView
+                style="@style/text_contact_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12sp"
+                android:text="收藏" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/gray_line" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sda_product_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="100dp"
+        android:gravity="fill"
+        android:horizontalSpacing="1dp"
+        android:numColumns="1"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp"
+        ptr:ptrHeaderTextColor="@color/black"
+        ptr:ptrMode="both" />
+
+</LinearLayout>

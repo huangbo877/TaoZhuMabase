@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/semitransparent_black" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:text="@string/cgjrgwc"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/tzm505"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/pop2_ljjs"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:background="@null"
+        android:text="@string/ljjs"
+        android:textColor="@color/base"
+        android:textSize="14sp" />
+
+</RelativeLayout>

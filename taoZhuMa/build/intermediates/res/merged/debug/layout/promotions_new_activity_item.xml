@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/pn_images"
+        android:layout_width="fill_parent"
+        android:layout_height="160dip"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dip"
+         />
+	<RelativeLayout 
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:padding="8dip"
+	    android:background="#ffffff"
+	    >
+	    <TextView 
+	        android:id="@+id/pn_end_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/text_contact_style"
+	        android:layout_alignParentRight="true"
+	        android:text="截止日期：2014.06.31"
+	        />
+	</RelativeLayout>
+</LinearLayout>

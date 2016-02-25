@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/tv_attr_title"
+        style="@style/text_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginRight="8dip">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_view"
+        style="@style/text_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@null"
+        android:text=":" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_attr_value"
+        style="@style/text_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dip"
+        android:background="@null"
+        android:singleLine="false" >
+    </TextView>
+
+</TableRow>
