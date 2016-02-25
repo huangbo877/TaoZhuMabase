@@ -1,0 +1,8 @@
+int attr canLoop 0x7f010000
+int drawable ic_launcher 0x7f020000
+int id cbLoopViewPager 0x7f040001
+int id cb_item_tag 0x7f040000
+int id loPageTurningPoint 0x7f040002
+int layout include_viewpager 0x7f030000
+int[] styleable ConvenientBanner { 0x7f010000 }
+int styleable ConvenientBanner_canLoop 0

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\viewPagerLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 162,
+                    "endColumn": 40,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\StudioProjects\\TaoZhuMa\\viewPagerLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 40,
+                        "endOffset": 198
+                    }
+                }
+            }
+        ]
+    }
+]
